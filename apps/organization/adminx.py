@@ -1,5 +1,4 @@
 # coding=utf-8
-# coding=utf-8
 
 import xadmin
 
@@ -29,3 +28,4 @@ class TeacherAdmin(object):
 xadmin.site.register(CityDict, CityDictAdmin)
 xadmin.site.register(CourseOrg, CourseOrgAdmin)
 xadmin.site.register(Teacher, TeacherAdmin)
+
