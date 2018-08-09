@@ -49,6 +49,7 @@ class Teacher(models.Model):
     org = models.ForeignKey(CourseOrg, verbose_name=u"所属机构")
     name = models.CharField(max_length=50, verbose_name=u"教师名")
     word_years = models.IntegerField(default=0, verbose_name=u"工作年限")
+    age = models.IntegerField(default=18, verbose_name=u"年龄")
     word_company = models.CharField(max_length=50, verbose_name=u"就职公司")
     word_position = models.CharField(max_length=50, verbose_name=u"公司职位")
     poins = models.CharField(max_length=50, verbose_name=u"教学特点")

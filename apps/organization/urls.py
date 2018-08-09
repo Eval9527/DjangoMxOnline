@@ -2,7 +2,7 @@
 
 from django.conf.urls import url
 
-from .views import OrgView, AddUserAskView, OrgHomeView, OrgCourseView, OrgDescView, OrgTeacherView, AddFavView
+from .views import OrgView, AddUserAskView, OrgHomeView, OrgCourseView, OrgDescView, OrgTeacherView, AddFavView, TeacherListView, TeacherDetailView
 
 urlpatterns = [
     # 课程机构列表
@@ -15,4 +15,11 @@ urlpatterns = [
 
     # 添加收藏
     url(r'^add_fav/$', AddFavView.as_view(), name="add_fav"),
+
+    # 教师列表页
+    url(r'^teacher/list/$', TeacherListView.as_view(), name="teacher_list"),
+
+    # 讲师详情页
+    url(r'^teacher/detail/(?P<teacher_id>\d+)/$', TeacherDetailView.as_view(), name="teacher_detail"),
+
 ]
