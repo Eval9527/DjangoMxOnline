@@ -3,6 +3,7 @@ from django.shortcuts import render
 from django.views.generic import View
 from pure_pagination import Paginator, EmptyPage, PageNotAnInteger
 from django.http import HttpResponse
+from django.db.models import Q
 
 from .models import CourseOrg, CityDict, Teacher
 from .forms import UserAskForm
@@ -19,6 +20,11 @@ class OrgView(View):
     def get(self, request):
         # 课程机构
         all_orgs = CourseOrg.objects.all()
+
+        # 机构搜索
+        search_keywords = request.GET.get('keywords', "")
+        if search_keywords:
+            all_orgs = all_orgs.filter(Q(name__icontains=search_keywords) | Q(desc__icontains=search_keywords))
 
         # 机构排名
         hot_orgs = all_orgs.order_by("-click_nums")[:3]
@@ -190,6 +196,14 @@ class AddFavView(View):
 class TeacherListView(View):
     def get(self, request):
         all_teachers = Teacher.objects.all()
+
+        # 讲师搜索，通过名字、特点、公司
+        search_keywords = request.GET.get('keywords', "")
+        if search_keywords:
+            all_teachers = search_keywords.filter(Q(name__icontains=search_keywords) |
+                                                  Q(poins__icontains=search_keywords) |
+                                                  Q(word_company__icontains=search_keywords))
+
         hot_teachers = all_teachers.order_by("-click_nums")[:3]
 
         # 排序
@@ -199,7 +213,7 @@ class TeacherListView(View):
                 all_teachers = all_teachers.order_by("-click_nums")
 
         teacher_nums = all_teachers.count()
-        # 对课程机构进行分页
+        # 对讲师进行分页
         try:
             page = request.GET.get('page', 1)
         except PageNotAnInteger:

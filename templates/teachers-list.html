@@ -86,14 +86,14 @@
 		<div class="head">讲师排行榜</div>
             {% for teacher in hot_teachers %}
             <dl class="des">
-                <span class="num fl">1</span>
-                <a href="/diary/hk_detail/6/">
+                <span class="num fl">{{ forloop.counter }}</span>
+                <a href="{% url 'org:teacher_detail' teacher.id %}">
                     <dt>
                         <img width="50" height="50" class="scrollLoading"  src="{{ MEDIA_URL }}{{ teacher.image }}"/>
                     </dt>
                 </a>
                 <dd>
-                    <a href="/diary/hk_detail/6/">
+                    <a href="{% url 'org:teacher_detail' teacher.id %}">
                         <h1 title="{{ teacher.name }}">{{ teacher.name }}</h1>
                     </a>
                     <p>工作年限：<span>{{ teacher.word_years }}年</span></p>
