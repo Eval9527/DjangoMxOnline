@@ -47,7 +47,7 @@
                                 </dl>
                                 <div class="btn">
 	                                <a class="personcenter fl" href="{% url 'users:users_info' %}">进入个人中心</a>
-	                                <a class="fr" href="/user/logout/">退出</a>
+	                                <a class="fr" href="{% url 'logout' %}">退出</a>
                                 </div>
                             </div>
                         </div>
@@ -364,7 +364,6 @@
                     }
                 });
         });
-
 
     $('.jsDeleteFav_org').on('click', function(){
             var _this = $(this),
