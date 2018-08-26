@@ -91,7 +91,7 @@ class OrgHomeView(View):
     def get(self, request, org_id):
         current_page = "home"
         course_org = CourseOrg.objects.get(id=int(org_id))  # 外键反向查找
-        course_org.click_nums +=1
+        course_org.click_nums += 1
         course_org.save()
         has_fav = False
         if request.user.is_authenticated():
@@ -179,7 +179,7 @@ class AddFavView(View):
             return HttpResponse('{"status": "fail", "msg": "用户未登录"}', content_type="application/json")
         exist_records = UserFavorite.objects.filter(user=request.user, fav_id=int(fav_id), fav_type=int(fav_type))
         if exist_records:
-            # 如果记录已存在，则表示用户取消收藏
+            # 如果记录已存在，则表示用户取消收藏，并减少收藏数
             exist_records.delete()
             if int(fav_type) == 1:
                 course = Course.objects.get(id=int(fav_id))
@@ -201,7 +201,7 @@ class AddFavView(View):
                 teacher.save()
             return HttpResponse('{"status": "success", "msg": "收藏"}', content_type="application/json")
         else:
-            # 如果记录不存在，则保存用户收藏
+            # 如果记录不存在，则保存用户收藏，并增加收藏数
             if int(fav_id) > 0 and int(fav_type) > 0:
                 user_fav = UserFavorite()  # 实例化数据模型
                 user_fav.user = request.user

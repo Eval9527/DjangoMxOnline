@@ -8,8 +8,9 @@ from django.views.generic.base import View
 from django.contrib.auth.hashers import make_password
 from django.http import HttpResponse, HttpResponseRedirect
 from pure_pagination import Paginator, EmptyPage, PageNotAnInteger
+from django.core.urlresolvers import reverse
 
-from .models import UserProfile, EmailVerifyRecord
+from .models import UserProfile, EmailVerifyRecord, Banner
 from .forms import LoginForm, RegisterForm, ForgetForm, ModifyPwdForm, UploadImageForm, UserInfoForm
 from utils.email_send import send_register_email
 from utils.mixin_utils import LoginRequiredMixin
@@ -28,13 +29,30 @@ class CustomBackend(ModelBackend):
             return None
 
 
+class IndexView(View):
+    def get(self, request):
+        # 轮播图
+        all_banner = Banner.objects.all().order_by('index')
+        # 课程轮播图（广告类）
+        banner_courses = Course.objects.filter(is_banner=True)[:3]
+        # 课程图
+        courses = Course.objects.filter(is_banner=False)[:6]
+        # 机构图
+        course_orgs = CourseOrg.objects.all()[:15]
+        return render(request, 'index.html', {
+            'all_banner': all_banner,
+            'courses': courses,
+            'banner_courses': banner_courses,
+            'course_orgs': course_orgs,
+        })
+
+
 class LogoutView(LoginRequiredMixin, View):
     """
     用户退出
     """
     def get(self, request):
         logout(request)
-        from django.core.urlresolvers import reverse
         return HttpResponseRedirect(reverse("index"))
 
 
@@ -54,7 +72,8 @@ class LoginView(View):
             if user is not None:
                 if user.is_active:
                     login(request, user)
-                    return render(request, "index.html")
+                    # return render(request, "index.html")
+                    return HttpResponseRedirect(reverse("index"))
                 else:
                     return render(request, "login.html", {"msg": u"用户未激活！"})
             else:
