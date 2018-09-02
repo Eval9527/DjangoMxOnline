@@ -30,7 +30,7 @@ PLUGINS = (
     'sortablelist',
 	'importexport',
     'ueditor',
-    'excel',
+	'excel'
 )
 
 
