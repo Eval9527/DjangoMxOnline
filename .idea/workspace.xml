@@ -1,91 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="100cd47a-6a2b-4202-b0a1-e85b0c213523" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/FontAwesome.otf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/MxOnline.iml" afterPath="$PROJECT_DIR$/.idea/MxOnline.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MxOnline/settings.py" afterPath="$PROJECT_DIR$/MxOnline/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MxOnline/urls.py" afterPath="$PROJECT_DIR$/MxOnline/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/courses/models.py" afterPath="$PROJECT_DIR$/apps/courses/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/courses/views.py" afterPath="$PROJECT_DIR$/apps/courses/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/operation/models.py" afterPath="$PROJECT_DIR$/apps/operation/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/organization/models.py" afterPath="$PROJECT_DIR$/apps/organization/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/organization/views.py" afterPath="$PROJECT_DIR$/apps/organization/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/users/views.py" afterPath="$PROJECT_DIR$/apps/users/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/commands.py" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/commands.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/forms.py" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/models.py" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/settings.py" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/editor_api.js" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/editor_api.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/scrawl.js" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/scrawl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/lang/en/en.js" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/lang/en/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/css/ueditor.css" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/css/ueditor.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/SyntaxHighlighter/shCore.js" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/SyntaxHighlighter/shCore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/highcharts.src.js" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/highcharts.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/canvas-tools.src.js" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/canvas-tools.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/exporting.js" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/exporting.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/exporting.src.js" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/exporting.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/jquery-1.10.2.js" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/jquery-1.10.2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/video-js/video.dev.js" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/video-js/video.dev.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.custom.js" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.custom.min.js" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.custom.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.flashonly.js" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.flashonly.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.flashonly.min.js" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.flashonly.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.html5only.js" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.html5only.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.html5only.min.js" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.html5only.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.js" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.min.js" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.withoutimage.js" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.withoutimage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/ueditor.all.js" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/ueditor.all.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/ueditor.all.min.js" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/ueditor.all.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/ueditor.parse.js" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/ueditor.parse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/ueditor.parse.min.js" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/ueditor.parse.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/urls.py" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/utils.py" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/views.py" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/widgets.py" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/widgets.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/filters.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/filters.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/models.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/__init__.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/aggregation.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/aggregation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/bookmark.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/bookmark.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/details.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/details.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/editable.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/editable.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/filters.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/filters.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/importexport.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/importexport.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/inline.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/inline.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/language.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/language.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/multiselect.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/multiselect.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/quickfilter.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/quickfilter.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/quickform.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/quickform.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/relate.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/relate.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/relfield.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/relfield.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/sortablelist.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/sortablelist.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/themes.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/themes.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/topnav.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/topnav.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/wizard.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/wizard.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/xversion.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/xversion.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/sites.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/sites.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/css/font-awesome.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/css/font-awesome.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/util.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/util.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/views/__init__.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/views/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/views/base.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/views/base.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/views/dashboard.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/views/dashboard.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/views/detail.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/views/detail.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/views/edit.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/views/edit.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/views/list.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/views/list.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/views/website.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/views/website.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/widgets.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/widgets.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
-    </list>
+    <list default="true" id="100cd47a-6a2b-4202-b0a1-e85b0c213523" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/MxOnline/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="443">
-              <caret line="156" column="0" lean-forward="true" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+              <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
               <folding>
                 <element signature="e#309#318#0" expanded="true" />
               </folding>
@@ -134,8 +50,8 @@
       <file leaf-file-name="widgets.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/widgets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="77" column="43" lean-forward="true" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
+            <state relative-caret-position="330">
+              <caret line="78" column="50" lean-forward="false" selection-start-line="78" selection-start-column="50" selection-end-line="78" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -268,7 +184,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="131" />
     <option name="y" value="68" />
     <option name="width" value="1353" />
@@ -404,7 +320,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -852,7 +768,7 @@
     <entry file="file://$PROJECT_DIR$/MxOnline/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
-          <caret line="156" column="0" lean-forward="true" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+          <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
           <folding>
             <element signature="e#309#318#0" expanded="true" />
           </folding>
@@ -877,8 +793,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/widgets.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="77" column="43" lean-forward="true" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
+        <state relative-caret-position="330">
+          <caret line="78" column="50" lean-forward="false" selection-start-line="78" selection-start-column="50" selection-end-line="78" selection-end-column="50" />
           <folding />
         </state>
       </provider>
