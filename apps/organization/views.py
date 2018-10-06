@@ -237,9 +237,9 @@ class TeacherListView(View):
         # 讲师搜索，通过名字、特点、公司
         search_keywords = request.GET.get('keywords', "")
         if search_keywords:
-            all_teachers = search_keywords.filter(Q(name__icontains=search_keywords) |
-                                                  Q(poins__icontains=search_keywords) |
-                                                  Q(word_company__icontains=search_keywords))
+            all_teachers = all_teachers.filter(Q(name__icontains=search_keywords) |
+                                               Q(poins__icontains=search_keywords) |
+                                               Q(word_company__icontains=search_keywords))
 
         hot_teachers = all_teachers.order_by("-click_nums")[:3]
 

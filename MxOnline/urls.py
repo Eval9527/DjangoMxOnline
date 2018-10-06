@@ -65,6 +65,6 @@ urlpatterns = [
 ]
 
 # 全局 404 配置
-handler404 = 'users.views.page_not_found'
+# handler404 = 'users.views.page_not_found'
 # 全局 500 配置
-handler500 = 'users.views.page_error'
+# handler500 = 'users.views.page_error'
